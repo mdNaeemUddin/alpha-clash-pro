@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Conceptional Session</title>
+</head>
+<body>
+    
+    <main>
+        <section>
+            <h1 id="title">Welcome to play with DOM</h1>
+            <ul id="list-container">
+                <li class="list-items">item-1</li>
+                <li class="list-items">item-2</li>
+                <li class="list-items">item-3</li>
+                <li class="list-items">item-4</li>
+                <li class="list-items">item-5</li>
+            </ul>
+        </section>
+    </main>
+
+    <script>
+
+    /* 
+        catch single elements using :
+        
+        document.getElementById() , document.querySelector()
+
+        const title = document.getElementById('title');
+        title.innerText = 'hi, peoples';
+        console.log(title.innerText);
+
+        const item = document.querySelector('#title');
+        console.log(item.innerText);
+        
+    */
+
+
+    /*
+        catch multiple elements using : 
+                
+        document.getElementsByClassName() , querySelectorAll() : node , parentNodes, childNodes, previousElementsSibling, previousSiblings,       
+
+    */
+
+       // write in html : innerText and get value (especial hidden text show) text : textContent
+
+       // setAttribute(), getAttribute(), addAttribute(), removeAttribute(), classList, remove(), add(), createElement(), appendChild(), insertBefore(), value, addEventLisener(), 
+
+
+        const item = document.querySelector('#list-container');
+        const item2 = item.childNodes
+        console.log(item2);
+
+        
+
+    </script>
+</body>
+</html>
